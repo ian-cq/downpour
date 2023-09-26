@@ -26,5 +26,3 @@ Infrastructure folder hosts our firebase configuration files in google cloud.
 
 # HOW-TO-RUN
 `gradle clean install`
-
-//TODO
