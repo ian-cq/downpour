@@ -16,3 +16,5 @@ Run this command to create your firebase project and the related resources for t
 `terraform plan`
 
 `terraform apply`
+
+Owner: Ian

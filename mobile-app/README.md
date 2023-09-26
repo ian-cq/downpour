@@ -4,3 +4,5 @@ Hosts our mobile application to run flood detection, flood prediction, flood ana
 # HOW-TO
 How to spin up our mobile application in Android Studio
 //TODO
+
+Owner: Team, Albert
