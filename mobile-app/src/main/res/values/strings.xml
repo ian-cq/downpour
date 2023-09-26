@@ -1,0 +1,171 @@
+<resources>
+    <string name="app_name">downpour_d</string>
+
+    <string-array name="user_type">
+        <item>Trailer Driver</item>
+        <item> Resident</item>
+    </string-array>
+
+    <string-array name="district">
+        <item>Gombak</item>
+        <item>Hulu Langat </item>
+        <item>Hulu Selangor </item>
+        <item>Klang </item>
+        <item>Kuala Langat </item>
+        <item>Kuala Selangor </item>
+        <item> Petaling</item>
+        <item>Sabak Bernam </item>
+        <item> Sepang</item>
+    </string-array>
+
+    <string-array name="causes">
+        <item>Continious Rain</item>
+        <item>Weather/Tropical Winds</item>
+        <item>Poor Drainage System</item>
+        <item> Pipe /Dam Breakage</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="next">next</string>
+    <string name="last_name">Last Name</string>
+    <string name="description1">CNN
+ — \n
+The Malaysian government’s insistence on holding a snap general election next month during a monsoon season that’s expected to bring devastating floods risks putting politics above people’s lives, opposition lawmakers and political analysts say.
+
+Malaysia will head to the polls on November 19, the country’s election commission announced last week, following Prime Minister Ismail Sabri Yaakob’s dissolution of parliament on October 10, when he called for a national vote to end years of political instability.
+
+But critics say holding the election during the annual northeast monsoon season – when much of the country is likely to be flooded – is a desperate attempt to hold onto power by Ismail’s ruling coalition.
+
+“Their strategy is clear: they want to keep voter turnout low because roads will be flooded and accessibility to polling stations will be cut off,” said Charles Santiago, a member of parliament for the opposition Democratic Action Party.
+
+Santiago believes voter turnout will be low, which would help Ismail’s United Malays National Organisation (UMNO) to win a majority of seats in parliament.
+
+The lawmaker filed a lawsuit with Malaysia’s High Court on October 14, seeking to delay the election. A verdict in the case is expected on Friday.</string>
+    <string name="date_news1">October 25, 2022 13:45</string>
+    <string name="date_news2">October 23, 2022 13:45</string>
+    <string name="description2"> “A total of 76,336 officers and personnel of response agencies at all levels including the district level are in a state of full readiness,” she said.
+
+    The Department of Irrigation and Drainage (JPS) has also prepared equipment such as flood warning sirens and mobile pumps, according to the minister.
+
+    Mdm Mastura added that RM50,000 (US$10,755) was allocated to each district in the country while RM1.08 million has been channelled to eight response agencies.
+
+    She said that the National Disaster Management Agency (NADMA) has allocated RM30,000 to each district for the purchase of two motorised fiberglass boats while the Department of Social Welfare has prepared 6,010 temporary relief centres that could house more than 1.6 million victims.
+        “The state disaster management committees and the district disaster management committees have also been instructed to prepare in advance to ensure that aid and supplies reach all involved locations,” she said, adding that this is to avoid the situation where delivery of aid is hampered by road closures. </string>
+    <string name="detect_parameters">Enter the following details about the flood</string>
+    <string name="welcome1">welcome1</string>
+    <string name="welcome1_description">An all-in-one app for Detection, Preparedness, Response and Prediction for Flood incidents</string>
+    <string name="skip1">Next</string>
+    <string name="welcome2_description">Detect flood using our machine learning algorithim</string>
+    <string name="welcome2_text">DETECT</string>
+    <string name="welcome2_skip">Next</string>
+    <string name="welcome2_next_page">next page</string>
+    <string name="welcome3_text">Get alerts and notification for nearby floods. Prepare and learn the procedures of what to do in flooding situations</string>
+    <string name="welcome3_prepare">PREPARE</string>
+    <string name="welcome4_decrip">Predict based on data that is analyzed and visualized to prepare for future flood incident and response to flooding incident faster</string>
+    <string name="welcome4_predict">PREDICT</string>
+    <string name="user_profile">profile</string>
+    <string name="button_update">Update</string>
+    <string name="name">JOHN SMITH</string>
+    <string name="password">happyhappy</string>
+    <string name="email">JOHNSMITH21@GMAIL.COM</string>
+    <string name="phonenumber">016-244-2332</string>
+    <string name="district">Klang</string>
+    <string name="address">1 22A Lrg Tiara 1B Bandar Baru, Klang</string>
+    <string name="backButton">go back to previous</string>
+    <string name="notification">notification</string>
+    <string name="name_userpf">Name</string>
+    <string name="password_pf">Password</string>
+    <string name="email_address_pf">Email Address</string>
+    <string name="phonenum_pf">Phone Number</string>
+    <string name="district_pf">District</string>
+    <string name="address_pf">Address</string>
+    <string name="updated_text">UPDATED!</string>
+    <string name="back_to_home_button_pf">Back to home</string>
+    <string name="signup_personal_details">Personal Details</string>
+    <string name="enter_data">Enter personal data about yourself</string>
+    <string name="text_user_type">User Type</string>
+    <string name="district_signup">District</string>
+    <string name="select_location_signup">Select Location Manually</string>
+    <string name="phonenumber_signup">phonenumber</string>
+    <string name="phone_number_textinput_signup">Phone Number</string>
+    <string name="or_sign">or</string>
+    <string name="already_have_an_account_signup">Already Have An Account?</string>
+    <string name="sign_up_with">Sign up with</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="twitter">twitter</string>
+    <string name="facebook">facebook</string>
+    <string name="password_signup">Password</string>
+    <string name="register_with_us">REGISTER WITH US</string>
+    <string name="password_confirmation">Password Confirmation</string>
+    <string name="descrip_emergencysteps">LIST OF WAYS TO BE PREPARED OR SAFETY MEASUERS IN FLOODING INCIDENTS</string>
+    <string name="safety_guide_text">Safety Guide</string>
+    <string name="updates_main">Updates</string>
+    <string name="analytic_main">Analytic</string>
+    <string name="saftey_guide_main">Saftey Guide</string>
+    <string name="weather_home">Weather</string>
+    <string name="emergency_preparation_">Emergency Preparation</string>
+    <string name="duringflood_description"> - Stay tuned to media for weather updates, emergency instructions, or evacuation orders. \n  \n -If time permits, move furniture and other items to upper floors. \n \n - Be prepared to turn off utilities and evacuate if instructed to do so.  \n\n - In the case of flash flooding, do not wait for instructions. Move immediately to higher ground.  \n\n -Do not drive in flooded areas. </string>
+    <string name="during_a_flood_text">During a flood</string>
+    <string name="after_a_flood_text">After a flood</string>
+    <string name="flood_description"> -Return home only when authorities say it is safe. \n\n -Clean and disinfect anything that has come in contact with flood water. \n\n -Be aware of areas where floodwaters have receded and watch out for debris. \n\n - Do not attempt to drive through areas that are still flooded. \n\n -Avoid standing water as it may be electrically charged from underground or downed power lines. </string>
+    <string name="texttitledescrip_analytic">ANALYSIS AND VISUALIZATION ON RECENT FLOODS</string>
+    <string name="analytic_page">Analytic Page</string>
+    <string name="yearly_stats">Yearly Stats</string>
+    <string name="infographic">Infographic</string>
+    <string name="last_name_signuppersonal">Last Name</string>
+    <string name="first_name">First Name</string>
+    <string name="phone_number">Phone number</string>
+    <string name="address_signup">Address</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="email_text_signin">Email</string>
+    <string name="don_t_have_an_account">Don\'t Have An Account?</string>
+    <string name="sign_in_with">Sign in with</string>
+    <string name="sign_in_button_text">SIGN IN</string>
+    <string name="facebook_contentdes">facebook</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="google_contentdes">google</string>
+    <string name="twitter_contentdes">twitter</string>
+    <string name="sign_up_text">SIGN UP</string>
+    <string name="password_subtitle">Password</string>
+    <string name="newstext1_home">Malaysia’s 2021 floods cause devastation in cities across eight states</string>
+    <string name="newstext2_home">Malaysia’s disaster agency prepared to face year-end floods, says deputy minister</string>
+    <string name="name_home">John Smith</string>
+    <string name="hello_updatehome">Hello</string>
+    <string name="weathersubtitle_update_home">Latest Weather Updates</string>
+    <string name="latest_news_update_subtitle">Latest News Update</string>
+    <string name="news_update_home">News</string>
+    <string name="time1_home">3 hours ago</string>
+    <string name="timenews2_home">2 days ago</string>
+    <string name="temp_weather">28° C</string>
+    <string name="description_weather"><![CDATA[Heavy Rain & Thunderstorm]]></string>
+    <string name="cancel">cancel</string>
+    <string name="exit">exit</string>
+    <string name="emergency_yesdetect">Emergency</string>
+    <string name="klang_yesdetect">Klang</string>
+    <string name="date_yesdetect">December 19, 2021</string>
+    <string name="time_yesdetect">4:30pm</string>
+    <string name="temp_yesdetect">26 °C</string>
+    <string name="humidity_yesdetect">90%</string>
+    <string name="cause_yesdetect">Continious Rainfall</string>
+    <string name="flood_detect_yes">FLOOD HAS BEEN DETECTED!</string>
+    <string name="map_yesdetect">map</string>
+    <string name="yesdetect_descrip">District: \n Date: \n Time: \n Temperature: \n Humidity: \n Cause:</string>
+    <string name="noflood_alert">NO FLOOD HAS BEEN DETECTED</string>
+    <string name="predictions_analytic">Predictions</string>
+    <string name="case_reported">Case Reported</string>
+    <string name="flooding">Flooding</string>
+    <string name="case_number_analytic">320</string>
+    <string name="msg_token_fmt">Token: %1$s</string>
+
+</resources>
+
+

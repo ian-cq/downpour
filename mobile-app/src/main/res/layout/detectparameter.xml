@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="167dp"
+        android:layout_marginEnd="48dp"
+        android:gravity="center_horizontal|center"
+        android:lineSpacingExtra="-3sp"
+        android:text="Enter the following details about the flood"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="127dp"
+        android:text="Flood Detection Tool"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/imageButtonnotiydetect"
+        android:layout_width="46dp"
+        android:layout_height="61dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="36dp"
+        android:background="@null"
+        android:contentDescription="notification"
+        android:scaleType="fitXY"
+        android:src="@drawable/alarm" />
+
+    <ImageButton
+        android:id="@+id/imageButtonpfdetect"
+        android:layout_width="68dp"
+        android:layout_height="87dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="26dp"
+        android:background="@null"
+        android:contentDescription="profile"
+        android:scaleType="fitXY"
+        android:src="@drawable/man_s_face_in_a_circle" />
+
+    <Spinner
+        android:id="@+id/spinner3"
+        style="@style/Widget.AppCompat.DropDownItem.Spinner"
+        android:layout_width="306dp"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="328dp"
+        android:layout_marginBottom="338dp"
+        android:background="@drawable/backgroundspinner"
+        android:elevation="10dp"
+        android:ems="10"
+        android:hint="District"
+        android:entries="@array/district"
+        android:popupBackground="@android:drawable/dialog_holo_light_frame"
+        android:shadowRadius="50"
+        android:spinnerMode="dialog"
+        android:textColor="#938989"/>
+
+    <TextView
+        android:id="@+id/textdistrict2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginBottom="245dp"
+        android:text="District"
+        android:textColor="#000000"
+        android:textStyle="normal" />
+
+    <ImageView
+        android:id="@+id/detectsq"
+        android:layout_width="395dp"
+        android:layout_height="103dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="261dp"
+        android:layout_marginEnd="-2dp"
+        android:src="@drawable/rectangle_11_ek3" />
+
+    <ImageView
+        android:id="@+id/detectrect"
+        android:layout_width="match_parent"
+        android:layout_height="445dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="-5dp"
+        android:src="@drawable/rectangle_166" />
+
+    <ImageButton
+        android:id="@+id/buttonsignupdetectpara"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="289dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button_bg"
+        android:contentDescription="@string/next"
+        android:src="@drawable/_vector_ek55" />
+
+    <EditText
+        android:id="@+id/editTextDate_para"
+        android:layout_width="154dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="406dp"
+        android:layout_marginEnd="215dp"
+        android:layout_marginBottom="314dp"
+        android:background="@drawable/_rectangle_126_ek1"
+        android:ems="10"
+        android:hint="mm/dd/yy"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="10dp"
+        android:shadowRadius="50"
+        android:textColor="#938989" />
+
+    <EditText
+        android:id="@+id/editTextTexttemp_para"
+        android:layout_width="154dp"
+        android:layout_height="68dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="86dp"
+        android:layout_marginBottom="140dp"
+        android:background="@drawable/_rectangle_126_ek1"
+        android:ems="10"
+        android:shadowRadius="50"
+        android:hint="Temp"
+        android:paddingLeft="50dp"
+        android:paddingTop="10dp"
+        android:paddingRight="50dp"
+        android:paddingBottom="10dp"
+        android:textColor="#938989" />
+
+    <EditText
+        android:id="@+id/editTexthumid_para"
+        android:layout_width="154dp"
+        android:layout_height="68dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="143dp"
+        android:background="@drawable/_rectangle_126_ek1"
+        android:ems="10"
+        android:hint="%"
+        android:paddingStart="70dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="50dp"
+        android:paddingBottom="10dp"
+        android:inputType="textPersonName"
+        android:shadowRadius="50"
+        android:textColor="#938989" />
+
+
+    <Spinner
+        android:id="@+id/spinnercause_para"
+        style="@style/Widget.AppCompat.DropDownItem.Spinner"
+        android:layout_width="306dp"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="485dp"
+        android:layout_marginBottom="230dp"
+        android:background="@drawable/backgroundspinner"
+        android:elevation="10dp"
+        android:ems="10"
+        android:entries="@array/causes"
+        android:popupBackground="@android:drawable/dialog_holo_light_frame"
+        android:shadowRadius="50"
+        android:spinnerMode="dialog"
+        android:textColor="#938989" />
+
+    <ImageButton
+        android:id="@+id/imageButtonmappara"
+        android:layout_width="204dp"
+        android:layout_height="96dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginBottom="21dp"
+        android:contentDescription="@string/map_yesdetect"
+        app:srcCompat="@drawable/screen_shot_2022_11_04_at_2_36_1_ek1" />
+
+    <EditText
+        android:id="@+id/editTextTime2_para"
+        android:layout_width="151dp"
+        android:layout_height="59dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="316dp"
+        android:background="@drawable/_rectangle_126_ek1"
+        android:ems="10"
+        android:inputType="time"
+        android:hint="hh:mm"
+        android:paddingLeft="50dp"
+        android:paddingTop="10dp"
+        android:paddingRight="50dp"
+        android:paddingBottom="10dp"
+        android:shadowRadius="50"
+        android:textColor="#938989"/>
+
+    <TextView
+        android:id="@+id/textdistrict3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="302dp"
+        android:text="District"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="39dp"
+        android:layout_marginBottom="370dp"
+        android:text="Date"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="160dp"
+        android:layout_marginBottom="371dp"
+        android:text="Time"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="294dp"
+        android:text="Cause"
+        android:textColor="#000000"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginBottom="212dp"
+        android:text="Temperature"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="118dp"
+        android:layout_marginBottom="208dp"
+        android:text="Humidity"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginBottom="120dp"
+        android:text="location"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
+

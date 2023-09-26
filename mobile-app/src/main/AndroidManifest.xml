@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Downpour_d"
+        tools:targetApi="31">
+        <activity
+            android:name=".analyticpg"
+            android:exported="false" />
+        <activity
+            android:name=".ui.login.LoginActivity"
+            android:exported="false"
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name=".launchpg"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".signinpg"
+            android:label="Sign In">
+        </activity>
+        <activity
+            android:name=".detect_parapg"
+            android:label="Detect Param">
+        </activity>
+        <activity
+            android:name=".safteymeasurepg"
+            android:label="S Guide">
+        </activity>
+        <activity
+            android:name=".newspg1"
+            android:label="News1">
+        </activity>
+        <activity
+            android:name=".newspg2"
+            android:label="News2">
+        </activity>
+        <activity
+            android:name=".signuppg"
+            android:label="Sign Up">
+        </activity>
+        <activity
+            android:name=".detect_yespg"
+            android:label="Detected">
+        </activity>
+        <activity
+            android:name=".detect_nopg"
+            android:label="Not Detected">
+        </activity>
+        <activity
+            android:name=".signupper_pg"
+            android:label="Sign Up Personal">
+        </activity>
+        <activity
+            android:name=".userpf_pg"
+            android:label="User profile">
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="Home Page">
+        </activity>
+        <activity
+            android:name=".welcome1"
+            android:label="Welcome1">
+        </activity>
+        <activity
+            android:name=".welcome2"
+            android:label="Welcome2">
+        </activity>
+        <activity
+            android:name=".welcome3"
+            android:label="Welcome3">
+        </activity>
+        <activity
+            android:name=".welcome4"
+            android:label="Welcome4">
+        </activity>
+        <service
+            android:name=".MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <meta-data
+            android:name="firebase_performance_logcat_enabled"
+            android:value="true" />
+        <!-- Set custom default icon. This is used when no icon is set for incoming notification messages.
+     See README(https://goo.gl/l4GJaQ) for more. -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@mipmap/ic_launcher" />
+        <!-- Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://gooicon is set and no icon is set in the notification payload, Android displays the application icon rendered in white..gl/6BKBk7) for more. -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/white" />
+<!--        <meta-data-->
+<!--            android:name="com.google.firebase.messaging.default_notification_channel_id"-->
+<!--            android:value="@string/default_notification_channel_id" />-->
+
+    </application>
+
+
+
+</manifest>

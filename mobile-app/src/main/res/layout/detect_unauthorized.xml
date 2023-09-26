@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background">
+
+
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="match_parent"
+        android:layout_height="489dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="-27dp"
+        android:contentDescription="container1"
+        android:src="@drawable/rectangle_166" />
+
+
+    <ImageButton
+        android:id="@+id/imageButtoncamera2"
+        android:layout_width="151dp"
+        android:layout_height="135dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="259dp"
+        android:background="@drawable/rectangle_129_ek1"
+        android:contentDescription="camera"
+        android:src="@drawable/camera_ek2" />
+
+    <ImageButton
+        android:id="@+id/imagegallery2"
+        android:layout_width="151dp"
+        android:layout_height="126dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/rectangle_129_ek1"
+        android:contentDescription="gallery"
+        android:src="@drawable/small_icons" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="178dp"
+        android:layout_marginEnd="48dp"
+        android:gravity="center_horizontal|center"
+        android:lineSpacingExtra="-3sp"
+        android:text="Capture Images or upload images into our system. Our algorithim will help detect whether its flood or not"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="normal"/>
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="51dp"
+        android:background="@null"
+        android:contentDescription="profile"
+        android:src="@drawable/man_s_face_in_a_circle" />
+
+    <ImageButton
+        android:id="@+id/imageButton9"
+        android:layout_width="61dp"
+        android:layout_height="78dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="29dp"
+        android:background="@null"
+        android:contentDescription="alertnotify"
+        android:src="@drawable/alarm" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="305dp"
+        android:layout_height="450dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="194dp"
+        android:alpha="0.5"
+        android:contentDescription="cotnainer"
+        app:srcCompat="@drawable/black_rect" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="225dp"
+        android:layout_height="257dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="263dp"
+        android:contentDescription="error for unathorized"
+        app:srcCompat="@drawable/rectangle_166" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="368dp"
+        android:gravity="center_horizontal|center"
+        android:lineSpacingExtra="1sp"
+        android:text=" You do not have access\n to this page"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonbackhome"
+        android:layout_width="127dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="282dp"
+        android:background="@drawable/button_bg"
+        android:text="Back to home"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="149dp"
+        android:text="Flood Detection Tool"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="337dp"
+        android:gravity="center_horizontal|center"
+        android:lineSpacingExtra="1sp"
+        android:text=" RESTRICTED"
+        android:textColor="@color/red"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

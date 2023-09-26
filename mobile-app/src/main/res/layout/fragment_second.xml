@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Home MAIN PAGE -->
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollviewhome"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentEnd="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alwaysDrawnWithCache="false"
+        android:background="@color/white"
+        tools:context=".secondFragment">
+
+        <ImageView
+            android:id="@+id/Klcchome_update"
+            android:layout_width="506dp"
+            android:layout_height="358dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="-39dp"
+            android:layout_marginTop="-17dp"
+            android:contentDescription="@null"
+            android:src="@drawable/image_1" />
+
+        <ImageView
+            android:id="@+id/bluerechome_update"
+            android:layout_width="match_parent"
+            android:layout_height="338dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="-11dp"
+            android:layout_marginEnd="-40dp"
+            android:alpha="0.5"
+            android:contentDescription="@null"
+            android:src="@drawable/bluerec_bg" />
+
+        <ImageView
+            android:id="@+id/whitetoppart_home_update"
+            android:layout_width="397dp"
+            android:layout_height="80dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="-2dp"
+            android:layout_marginTop="277dp"
+            android:layout_marginEnd="0dp"
+            android:contentDescription="@null"
+            android:src="@drawable/rectangle_11_ek3" />
+
+
+        <ImageView
+            android:id="@+id/whilelargepart_home_update"
+            android:layout_width="433dp"
+            android:layout_height="895dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="-40dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="139dp"
+            android:contentDescription="@null"
+            android:src="@drawable/rectangle_166" />
+
+        <TextView
+            android:id="@+id/textnamehome_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="-58dp"
+            android:layout_marginTop="166dp"
+            android:layout_marginEnd="148dp"
+            android:gravity="center_horizontal|center"
+            android:lineSpacingExtra="-3sp"
+            android:text="@string/name_home"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+
+        <ImageButton
+            android:id="@+id/imageButtonpfhome_pf"
+            android:layout_width="88dp"
+            android:layout_height="120dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="13dp"
+            android:background="@null"
+            android:contentDescription="@string/user_profile"
+            android:src="@drawable/man_s_face_in_a_circle" />
+
+        <ImageButton
+            android:id="@+id/imageButton_notify_home"
+            android:layout_width="58dp"
+            android:layout_height="58dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="47dp"
+            android:layout_marginEnd="24dp"
+            android:background="@null"
+            android:contentDescription="notifi"
+            android:src="@drawable/alarm" />
+
+        <TextView
+            android:id="@+id/texthello"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="129dp"
+            android:text="@string/hello_updatehome"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/update1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="298dp"
+            android:text="@string/updates_main"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/textweatherupd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="387dp"
+            android:text="@string/weathersubtitle_update_home"
+            android:textColor="#5D5959"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textnewupdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="33dp"
+            android:layout_marginTop="653dp"
+            android:text="@string/latest_news_update_subtitle"
+            android:textColor="#5D5959"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textweather2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="353dp"
+            android:text="@string/weather_home"
+            android:textColor="#76B6D5"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textnews"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="37dp"
+            android:layout_marginTop="617dp"
+            android:text="@string/news_update_home"
+            android:textColor="#76B6D5"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/analytic1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="155dp"
+            android:layout_marginTop="298dp"
+            android:text="@string/analytic_main"
+            android:textColor="#B5B2B2"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Saftey1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="251dp"
+            android:layout_marginTop="300dp"
+            android:text="@string/saftey_guide_main"
+            android:textColor="#B5B2B2"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/weathericon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="114dp"
+            android:layout_marginTop="355dp"
+            android:contentDescription="@null"
+            android:src="@drawable/heavy_rain" />
+
+        <ImageView
+            android:id="@+id/weatherimage_home"
+            android:layout_width="345dp"
+            android:layout_height="175dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="422dp"
+            android:contentDescription="@null"
+            android:src="@drawable/image_2" />
+
+        <ImageButton
+            android:id="@+id/buttonnews1_updatehome"
+            android:layout_width="345dp"
+            android:layout_height="175dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="675dp"
+            android:background="@null"
+            android:contentDescription="news 1"
+            app:srcCompat="@drawable/rectangle_162" />
+
+        <TextView
+            android:id="@+id/news1descrip_home"
+            android:layout_width="193dp"
+            android:layout_height="59dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="53dp"
+            android:layout_marginTop="709dp"
+            android:layout_marginBottom="209dp"
+            android:text="@string/newstext1_home"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/time_news_1"
+            android:layout_width="193dp"
+            android:layout_height="59dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="790dp"
+            android:text="@string/time1_home"
+            android:textColor="#5D5959"
+            android:textStyle="normal" />
+
+
+        <ImageView
+            android:id="@+id/imagenews1"
+            android:layout_width="103dp"
+            android:layout_height="90dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="245dp"
+            android:layout_marginTop="714dp"
+            android:layout_marginBottom="209dp"
+            android:contentDescription="@null"
+            app:srcCompat="@drawable/screen_shot_2022_10_27_at_1_42_1" />
+
+        <ImageButton
+            android:id="@+id/Buttonnews2_updatehome"
+            android:layout_width="345dp"
+            android:layout_height="175dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="843dp"
+            android:background="@null"
+            android:contentDescription="@null"
+            app:srcCompat="@drawable/rectangle_162" />
+
+        <TextView
+            android:id="@+id/news2descrip_home"
+            android:layout_width="193dp"
+            android:layout_height="59dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="872dp"
+            android:layout_marginBottom="209dp"
+            android:text="@string/newstext2_home"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/time_news_2"
+            android:layout_width="193dp"
+            android:layout_height="59dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="43dp"
+            android:layout_marginTop="959dp"
+            android:text="@string/timenews2_home"
+            android:textColor="#5D5959"
+            android:textStyle="normal" />
+
+        <ImageView
+            android:id="@+id/imagenews2"
+            android:layout_width="103dp"
+            android:layout_height="90dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="242dp"
+            android:layout_marginTop="882dp"
+            android:contentDescription="@null"
+            app:srcCompat="@drawable/screen_shot_2022_10_27_at_2_43_1" />
+
+        <TextView
+            android:id="@+id/textdateweather"
+            android:layout_width="152dp"
+            android:layout_height="53dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="67dp"
+            android:layout_marginTop="443dp"
+            android:text="Thursday,  Oct 27"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tempweather"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="171dp"
+            android:layout_marginTop="492dp"
+            android:text="@string/temp_weather"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/weatherdescription_home"
+            android:layout_width="wrap_content"
+            android:layout_height="42dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="97dp"
+            android:layout_marginTop="528dp"
+            android:text="@string/description_weather"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="277dp"
+            android:layout_height="28dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="43dp"
+            android:layout_marginTop="208dp"
+            android:background="@drawable/rectangle_166"
+            android:paddingStart="20dp"
+            android:paddingTop="5dp"
+            android:paddingEnd="20dp"
+            android:paddingBottom="5dp"
+            android:text="Klang"
+            android:drawableLeft="@drawable/location_live"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+</ScrollView>

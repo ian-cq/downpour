@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "186519455202",
+    "project_id": "downpour-taylors-2022",
+    "storage_bucket": "downpour-taylors-2022.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:186519455202:android:66b0b375ec7c87e93165bb",
+        "android_client_info": {
+          "package_name": "com.example.downpour_d"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "186519455202-qpc2k75iq4fja0ea3j80c5h6u70ddgg5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7CfN2W472wfhxhIjUl8kk6EZ_gd_y21c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "186519455202-qpc2k75iq4fja0ea3j80c5h6u70ddgg5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:186519455202:android:aca33ddeb7325eeb3165bb",
+        "android_client_info": {
+          "package_name": "com.taylors.downpour"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "186519455202-qpc2k75iq4fja0ea3j80c5h6u70ddgg5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7CfN2W472wfhxhIjUl8kk6EZ_gd_y21c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "186519455202-qpc2k75iq4fja0ea3j80c5h6u70ddgg5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageButton
+        android:id="@+id/buttonnextwel1"
+        android:layout_width="232dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="73dp"
+        android:layout_marginEnd="88dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/button_bg"
+        android:contentDescription="@string/next"
+        android:src="@drawable/_vector_ek55" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="256dp"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="351dp"
+        android:layout_marginEnd="78dp"
+        android:contentDescription="@string/welcome1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/screen_shot_2022_10_26_at_9_19_2"
+        tools:layout_editor_absoluteY="295dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="309dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="474dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:lineSpacingExtra="1sp"
+        android:text="@string/welcome1_description"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="449dp" />
+
+    <TextView
+        android:id="@+id/skip1"
+        android:layout_width="326dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="620dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:lineSpacingExtra="13sp"
+        android:text="@string/skip1"
+        android:textSize="25sp"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

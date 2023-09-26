@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/gradient_background">
+
+    <ImageView
+        android:id="@+id/imageViewuserpf"
+        android:layout_width="397dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="312dp"
+        android:layout_marginEnd="0dp"
+        android:src="@drawable/rectangle_11_ek3" />
+
+    <ImageView
+        android:id="@+id/imageViewuserpf1"
+        android:layout_width="441dp"
+        android:layout_height="484dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-40dp"
+        android:layout_marginEnd="-8dp"
+        android:layout_marginBottom="-55dp"
+        android:src="@drawable/rectangle_166" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="167dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="109dp"
+        android:layout_marginTop="84dp"
+        app:srcCompat="@drawable/man_s_face_in_a_circle_ek11" />
+
+    <Button
+        android:id="@+id/buttonupdate_pf"
+        android:layout_width="187dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="483dp"
+        android:background="@drawable/button_white_bg"
+        android:backgroundTint="@color/white"
+        android:text="Sign Out"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="343dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="349dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:paddingStart="20dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="10dp"
+        android:shadowRadius="50"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress2"
+        android:layout_width="352dp"
+        android:layout_height="57dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginBottom="302dp"
+        android:ems="10"
+        android:hint="Email Address"
+        android:inputType="textEmailAddress"
+        android:paddingStart="20dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="10dp"
+        android:shadowRadius="50"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/editTextPhone2"
+        android:layout_width="352dp"
+        android:layout_height="57dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginBottom="230dp"
+        android:ems="10"
+        android:hint="Phone"
+        android:inputType="phone"
+        android:paddingStart="20dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="10dp"
+        android:shadowRadius="50"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/editTextTextPostalAddress2"
+        android:layout_width="348dp"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginBottom="160dp"
+        android:ems="10"
+        android:hint="District"
+        android:inputType="textPostalAddress"
+        android:paddingStart="20dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="10dp"
+        android:shadowRadius="50"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/editTextTextPostalAddress4"
+        android:layout_width="349dp"
+        android:layout_height="59dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="77dp"
+        android:ems="10"
+        android:hint="Address"
+        android:inputType="textPostalAddress"
+        android:paddingStart="20dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="10dp"
+        android:shadowRadius="50"
+        android:textColor="@color/black" />
+
+    <ImageButton
+        android:id="@+id/backButton1_pf"
+        android:layout_width="49dp"
+        android:layout_height="64dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="18dp"
+        android:background="@null"
+        android:contentDescription="@string/backButton"
+        app:srcCompat="@drawable/_expand_arrow_ek15" />
+
+    <ImageButton
+        android:id="@+id/notifyButton_pf"
+        android:layout_width="53dp"
+        android:layout_height="58dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="23dp"
+        android:background="@null"
+        android:contentDescription="@string/notification"
+        app:srcCompat="@drawable/alarm_ek9" />
+
+</RelativeLayout>

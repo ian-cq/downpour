@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".firstFragment"
+    android:background="@drawable/gradient_background">
+
+
+    <!-- DETECT MAIN PAGE -->
+
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="397dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="312dp"
+        android:contentDescription="container"
+        android:layout_marginEnd="0dp"
+        android:src="@drawable/rectangle_11_ek3" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="441dp"
+        android:layout_height="484dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-40dp"
+        android:layout_marginEnd="-8dp"
+        android:contentDescription="container"
+        android:layout_marginBottom="-55dp"
+        android:src="@drawable/rectangle_166" />
+
+    <ImageButton
+        android:id="@+id/imageButtoncamera"
+        android:layout_width="151dp"
+        android:layout_height="135dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="259dp"
+        android:background="@drawable/rectangle_129_ek1"
+        android:contentDescription="camera"
+        android:src="@drawable/camera_ek2" />
+
+    <ImageButton
+        android:id="@+id/imagegallery"
+        android:layout_width="151dp"
+        android:layout_height="126dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/rectangle_129_ek1"
+        android:contentDescription="gallery"
+        android:src="@drawable/small_icons" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="178dp"
+        android:layout_marginEnd="48dp"
+        android:gravity="center_horizontal|center"
+        android:lineSpacingExtra="-3sp"
+        android:text="Capture Images or upload images into our system. Our algorithim will help detect whether its flood or not"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="normal" />
+
+    <ImageButton
+        android:id="@+id/buttonpf_detect"
+        android:layout_width="73dp"
+        android:layout_height="85dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="29dp"
+        android:background="@null"
+        android:contentDescription="pf"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/man_s_face_in_a_circle_ek10" />
+
+    <ImageButton
+        android:id="@+id/imageButtonnotify_detect"
+        android:layout_width="58dp"
+        android:scaleType="fitXY"
+        android:layout_height="64dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="24dp"
+        android:background="@null"
+        android:contentDescription="notification"
+        android:src="@drawable/alarm" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="149dp"
+        android:text="Flood Detection Tool"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

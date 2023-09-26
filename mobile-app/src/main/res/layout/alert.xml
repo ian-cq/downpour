@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app ="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageViewalert"
+        android:layout_width="295dp"
+        android:layout_height="307dp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="182dp"
+        android:contentDescription="@null"
+        android:src="@drawable/rectangle_129_ek1" />
+
+    <TextView
+        android:id="@+id/flood_yes_title1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="77dp"
+        android:layout_marginBottom="505dp"
+        android:text="@string/flood_detect_yes"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/map_detect_yes"
+        android:layout_width="wrap_content"
+        android:layout_height="108dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="287dp"
+        android:background="@null"
+        android:contentDescription="@string/map_yesdetect"
+        app:srcCompat="@drawable/screen_shot_2022_11_04_at_2_36_1" />
+
+    <ImageButton
+        android:id="@+id/buttonpf_alert"
+        android:layout_width="77dp"
+        android:layout_height="98dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="29dp"
+        android:background="@null"
+        android:contentDescription="pf"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/man_s_face_in_a_circle_ek10" />
+
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="130dp"
+        android:layout_height="129dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="82dp"
+        android:layout_marginBottom="246dp"
+        android:gravity="center_vertical"
+        android:lineSpacingExtra="-3sp"
+        android:text="@string/yesdetect_descrip"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonsaftey"
+        android:layout_width="212dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="101dp"
+        android:background="@drawable/button_bg"
+        android:backgroundTint="#76B6D5"
+        android:text="Saftey Measure"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/errorimage1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="66dp"
+        android:layout_marginBottom="257dp"
+        android:contentDescription="@null"
+        app:srcCompat="@drawable/error" />
+
+    <ImageView
+        android:id="@+id/errorimage2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="74dp"
+        android:layout_marginBottom="261dp"
+        android:contentDescription="@null"
+        app:srcCompat="@drawable/siren_ek11" />
+
+    <Button
+        android:id="@+id/emergencybutton"
+        android:layout_width="212dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="92dp"
+        android:layout_marginBottom="161dp"
+        android:background="@drawable/button_red"
+        android:backgroundTint="@color/red"
+        android:drawableStart="@drawable/phone"
+        android:paddingStart="10dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="50dp"
+        android:paddingBottom="10dp"
+        android:text="@string/emergency_yesdetect"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="157dp"
+        android:layout_marginBottom="344dp"
+        android:gravity="center_vertical"
+        android:lineSpacingExtra="-3sp"
+        android:text="@string/klang_yesdetect"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="136dp"
+        android:layout_marginBottom="326dp"
+        android:gravity="center_vertical"
+        android:lineSpacingExtra="-3sp"
+        android:text="@string/date_yesdetect"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="138dp"
+        android:layout_marginBottom="308dp"
+        android:gravity="center_vertical"
+        android:lineSpacingExtra="-3sp"
+        android:text="@string/time_yesdetect"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="205dp"
+        android:layout_marginBottom="290dp"
+        android:gravity="center_vertical"
+        android:lineSpacingExtra="-3sp"
+        android:text="@string/temp_yesdetect"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="171dp"
+        android:layout_marginBottom="270dp"
+        android:gravity="center_vertical"
+        android:lineSpacingExtra="-3sp"
+        android:text="@string/humidity_yesdetect"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="147dp"
+        android:layout_marginBottom="253dp"
+        android:gravity="center_vertical"
+        android:lineSpacingExtra="-3sp"
+        android:text="@string/cause_yesdetect"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="normal" />
+
+
+</RelativeLayout>

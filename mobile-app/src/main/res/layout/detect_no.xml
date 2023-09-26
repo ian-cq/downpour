@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="167dp"
+        android:layout_marginEnd="48dp"
+        android:gravity="center_horizontal|center"
+        android:lineSpacingExtra="-3sp"
+        android:text="@string/detect_parameters"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="normal" />
+
+
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="127dp"
+        android:text="Flood Detection Tool"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/imageButtonnotiydetect"
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="24dp"
+        android:background="@null"
+        android:contentDescription="notification"
+        android:src="@drawable/alarm" />
+
+    <ImageButton
+        android:id="@+id/imageButtonpfdetect"
+        android:layout_width="77dp"
+        android:layout_height="94dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="26dp"
+        android:background="@null"
+        android:contentDescription="profile"
+        android:src="@drawable/man_s_face_in_a_circle" />
+
+    <TextView
+        android:id="@+id/textdistrict2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginBottom="245dp"
+        android:text="District"
+        android:textColor="#000000"
+        android:textStyle="normal" />
+
+    <ImageView
+        android:id="@+id/detectsq"
+        android:layout_width="393dp"
+        android:layout_height="112dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="261dp"
+        android:layout_marginEnd="-2dp"
+        android:src="@drawable/rectangle_11_ek3" />
+
+    <ImageView
+        android:id="@+id/detectrect"
+        android:layout_width="match_parent"
+        android:layout_height="445dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="-8dp"
+        android:src="@drawable/rectangle_166" />
+
+    <ImageButton
+        android:id="@+id/buttonsignupdetectpara"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="289dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button_bg"
+        android:contentDescription="@string/next"
+        android:src="@drawable/_vector_ek55" />
+
+
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="154dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="406dp"
+        android:layout_marginEnd="215dp"
+        android:layout_marginBottom="314dp"
+        android:background="@drawable/_rectangle_126_ek1"
+        android:ems="10"
+        android:text="mm/dd/yy"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:shadowRadius="50"
+        android:textColor="#938989" />
+
+    <EditText
+        android:id="@+id/editTextTexttemp"
+        android:layout_width="154dp"
+        android:layout_height="68dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="86dp"
+        android:layout_marginBottom="140dp"
+        android:background="@drawable/_rectangle_126_ek1"
+        android:ems="10"
+        android:shadowRadius="50"
+        android:text="Temp"
+        android:paddingLeft="50dp"
+        android:paddingTop="10dp"
+        android:paddingRight="50dp"
+        android:paddingBottom="10dp"
+        android:textColor="#938989" />
+
+    <EditText
+        android:id="@+id/editTexthumid"
+        android:layout_width="154dp"
+        android:layout_height="68dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="143dp"
+        android:background="@drawable/_rectangle_126_ek1"
+        android:ems="10"
+        android:text="%"
+        android:hint="humidity"
+        android:paddingLeft="70dp"
+        android:paddingTop="10dp"
+        android:paddingRight="50dp"
+        android:paddingBottom="10dp"
+        android:inputType="textPersonName"
+        android:shadowRadius="50"
+        android:textColor="#938989" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="415dp"
+        android:layout_marginBottom="230dp"
+        android:background="@drawable/_rectangle_126_ek1"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Cause"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"/>
+
+    <ImageButton
+        android:id="@+id/imageButton10"
+        android:layout_width="204dp"
+        android:layout_height="96dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="32dp"
+        android:contentDescription="map"
+        app:srcCompat="@drawable/screen_shot_2022_11_04_at_2_36_1_ek1" />
+
+    <EditText
+        android:id="@+id/editTextTime2"
+        android:layout_width="151dp"
+        android:layout_height="59dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="316dp"
+        android:background="@drawable/_rectangle_126_ek1"
+        android:ems="10"
+        android:inputType="time"
+        android:text="Time"
+        android:paddingLeft="50dp"
+        android:paddingTop="10dp"
+        android:paddingRight="50dp"
+        android:paddingBottom="10dp"
+        android:shadowRadius="50"
+        android:textColor="#938989"/>
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="305dp"
+        android:layout_height="450dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="194dp"
+        android:alpha="0.5"
+        android:contentDescription="cotnainer"
+        app:srcCompat="@drawable/black_rect" />
+
+    <ImageView
+        android:id="@+id/imageViewrect"
+        android:layout_width="225dp"
+        android:layout_height="257dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="263dp"
+        android:contentDescription="error for unathorized"
+        app:srcCompat="@drawable/rectangle_166" />
+
+
+    <TextView
+        android:id="@+id/textViewrestrict"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="289dp"
+        android:gravity="center_horizontal|center"
+        android:lineSpacingExtra="1sp"
+        android:text=" NO FLOOD DETECTED!"
+        android:textColor="@color/red"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewerror"
+        android:layout_width="208dp"
+        android:layout_height="113dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="322dp"
+        android:gravity="center_horizontal|center"
+        android:lineSpacingExtra="1sp"
+        android:text="Continue by clicking on the arrow button to go back to
+the homepage"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <ImageButton
+        android:id="@+id/buttonnext_detectno"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="149dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginBottom="293dp"
+        android:background="@drawable/button_bg"
+        android:contentDescription="@string/next"
+        android:src="@drawable/_vector_ek55" />
+
+
+</RelativeLayout>

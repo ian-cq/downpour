@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Home analytic PAGE -->
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollviewhome"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentEnd="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alwaysDrawnWithCache="false"
+        android:background="@color/white"
+        tools:context=".secondFragment">
+
+        <ImageView
+            android:id="@+id/Klcchome_update"
+            android:layout_width="506dp"
+            android:layout_height="358dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="-39dp"
+            android:layout_marginTop="-17dp"
+            android:contentDescription="@null"
+            android:src="@drawable/image_1" />
+
+        <ImageView
+            android:id="@+id/bluerechome_update"
+            android:layout_width="match_parent"
+            android:layout_height="338dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="-11dp"
+            android:layout_marginEnd="-40dp"
+            android:alpha="0.5"
+            android:contentDescription="@null"
+            android:src="@drawable/bluerec_bg" />
+
+        <ImageView
+            android:id="@+id/whitetoppart_home_update"
+            android:layout_width="397dp"
+            android:layout_height="80dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="-2dp"
+            android:layout_marginTop="277dp"
+            android:layout_marginEnd="0dp"
+            android:contentDescription="@null"
+            android:src="@drawable/rectangle_11_ek3" />
+
+
+        <ImageView
+            android:id="@+id/whilelargepart_home_update"
+            android:layout_width="433dp"
+            android:layout_height="895dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="-40dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="139dp"
+            android:contentDescription="@null"
+            android:src="@drawable/rectangle_166" />
+
+
+        <ImageButton
+            android:id="@+id/imageButtonpfhome_update"
+            android:layout_width="70dp"
+            android:layout_height="83dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="21dp"
+            android:layout_marginTop="23dp"
+            android:background="@null"
+            android:contentDescription="@string/user_profile"
+            android:scaleType="fitXY"
+            android:src="@drawable/man_s_face_in_a_circle" />
+
+        <ImageButton
+            android:id="@+id/imageButtonnotify_analytic"
+            android:layout_width="50dp"
+            android:layout_height="69dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="29dp"
+            android:layout_marginEnd="38dp"
+            android:background="@null"
+            android:contentDescription="@string/notification"
+            android:scaleType="fitXY"
+            android:src="@drawable/alarm" />
+
+        <TextView
+            android:id="@+id/textdescrip2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="49dp"
+            android:layout_marginTop="118dp"
+            android:layout_marginEnd="41dp"
+            android:gravity="center_horizontal|center"
+            android:lineSpacingExtra="-3sp"
+            android:text="@string/texttitledescrip_analytic"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/update3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="298dp"
+            android:text="@string/updates_main"
+            android:textColor="#B5B2B2"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+        android:id="@+id/textyearlystats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="341dp"
+        android:text="@string/yearly_stats"
+        android:textColor="#76B6D5"
+        android:textSize="23sp"
+        android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/analytic3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="155dp"
+            android:layout_marginTop="298dp"
+            android:text="@string/analytic_main"
+            android:textColor="#B5B2B2"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Saftey3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="251dp"
+            android:layout_marginTop="300dp"
+            android:text="@string/saftey_guide_main"
+            android:textColor="#B5B2B2"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView21"
+            android:layout_width="wrap_content"
+            android:layout_height="110dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="395dp"
+            app:srcCompat="@drawable/rectangle_162" />
+
+
+        <ImageButton
+            android:id="@+id/buttongraph1"
+            android:layout_width="345dp"
+            android:layout_height="175dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="566dp"
+            android:background="@null"
+            android:contentDescription="grap"
+            app:srcCompat="@drawable/image_41" />
+
+        <Spinner
+            android:id="@+id/spinner3_district"
+            style="@style/Widget.AppCompat.DropDownItem.Spinner"
+            android:layout_width="306dp"
+            android:layout_height="56dp"
+            android:layout_below="@id/buttongraph1"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="776dp"
+            android:layout_marginBottom="338dp"
+            android:background="@drawable/backgroundspinner"
+            android:elevation="10dp"
+            android:ems="10"
+            android:entries="@array/district"
+            android:popupBackground="@android:drawable/dialog_holo_light_frame"
+            android:shadowRadius="50"
+            android:spinnerMode="dialog"
+            android:textColor="#938989"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+
+        <ImageButton
+            android:id="@+id/graph2_analytic"
+            android:layout_width="345dp"
+            android:layout_height="175dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="908dp"
+            android:background="@null"
+            android:contentDescription="@null"
+            app:srcCompat="@drawable/image_40" />
+
+        <TextView
+            android:id="@+id/textView42"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="141dp"
+            android:layout_marginTop="412dp"
+            android:text="@string/case_reported"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView44"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="444dp"
+            android:layout_marginEnd="177dp"
+            android:text="@string/case_number_analytic"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="196dp"
+            android:layout_marginEnd="137dp"
+            android:background="@drawable/button_white_bg"
+            android:backgroundTint="@color/white"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/black"
+            android:text="@string/analytic_page" />
+
+        <TextView
+            android:id="@+id/textinfographic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="521dp"
+            android:text="@string/infographic"
+            android:textColor="#76B6D5"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textinfographic2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="867dp"
+            android:text="@string/predictions_analytic"
+            android:textColor="#76B6D5"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/floodtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="92dp"
+            android:layout_marginTop="1098dp"
+            android:text="@string/flooding"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/floodtext2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="49dp"
+            android:layout_marginTop="751dp"
+            android:text="@string/district_signup"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/nofloodtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="244dp"
+            android:layout_marginTop="1098dp"
+            android:text=" Not Flooding"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <ImageView
+            android:id="@+id/imagerectred"
+            android:layout_width="38dp"
+            android:layout_height="32dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="1095dp"
+            app:srcCompat="@drawable/rect_red" />
+
+        <ImageView
+            android:id="@+id/imagerectblue"
+            android:layout_width="38dp"
+            android:layout_height="32dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="1095dp"
+            app:srcCompat="@drawable/rect_blue" />
+
+
+    </RelativeLayout>
+</ScrollView>
