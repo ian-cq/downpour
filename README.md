@@ -1,5 +1,9 @@
 # downpour
-Taylor's FYP. Downpour Mobile Application.\n All-in-one flood disaster prevention mobile application.\n Flood detection using deep learning, flood prediction using machine learning, flood analytics using data analytics and realtime flood warning system using firebase and java.
+Taylor's FYP. Downpour Mobile Application.
+
+All-in-one flood disaster prevention mobile application.
+
+Flood detection using deep learning, flood prediction using machine learning, flood analytics using data analytics and realtime flood warning system using firebase and java.
 
 # Directory
 
